@@ -35,18 +35,37 @@ h4 {
     font-weight: normal;
     color: gray;
 }
+.phone-video {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center
+}
 .phone-video video{
     width: 40vw;
     height: 80vh;
   }
+.camp-scene {
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 2vh;
+}
 .camp-scene img{
     width: 80vw;
     height: 50vh;
 }
-.phone-icon img{
-    width: 5vw;
-    height: 10vh;
+.phone-icon {
+    width: 100%;
+    display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
+}
+.phone-icon img{
+    width: 5vw;
+    height: 10vh; 
 }
