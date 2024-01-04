@@ -28,6 +28,23 @@ h1 {
     justify-content: center;
     align-items: center;
 }
+.link-container h2:hover,
+.link-container h2:active{
+    color: aquamarine;
+    cursor: pointer;
+}
+
+.link-container h2:hover::after,
+.link-container h2:active::after{
+    content: "";
+    width: 40%; /* Length of the underline */
+    height: 2px;
+    background: aquamarine;
+    position: absolute;
+    bottom: 10px; /* How far down from the word is the underline */
+    left: 223px; /* Lining up where the left of the underline begins */
+}
+
 h2 {
     font-size: 16px;
     font-weight: normal;
